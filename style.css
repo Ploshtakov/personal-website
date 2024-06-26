@@ -1,114 +1,144 @@
 body {
-    overflow: hidden;
-    background-color:#00FFFF;
+     overflow: hidden;
+     background-color:#00FFFF;
+}
+ h1{
+     color:#FF69B4;
+     font-size:250px;
+     max-width: fit-content;
+     margin-left: auto;
+     margin-right: auto;
+}
+ h1::selection {
+     color: yellow;
+     background-color: black;
+}
+ h2{
+     color:#FF69B4;
+     font-size:40px;
+     max-width: fit-content;
+     margin-left: auto;
+     margin-right: auto;
+}
+ h3 {
+     color:#FF69B4;
+     font-size:200px;
+     max-width: fit-content;
+     margin-left: auto;
+     margin-right: auto;
+}
+ button {
+     color: #00FFFF;
+     background: #FF69B4;
+     font-size: 20px;
+     padding: 1px;
+     margin: 2px;
+     border: 2px solid #00c9c9;
+     border-radius: 15px;
+     height: 30px;
+     width: 130px;
+     cursor: grab;
+}
+ button:hover {
+     color: #ae9dfc;
+     background: #f5a4e3;
+}
+ #counter-buttons {
+     max-width: fit-content;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     top:0px;
+}
+ #nav-buttons {
+     max-width: fit-content;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     top:0px;
+}
+ .unfinished-button:hover {
+    cursor:not-allowed;
+    background: #a8228a;
+ }
+ #name{
+     color: #FF69B4;
+     font-size: 25px;
+     position: absolute;
+     bottom: 0px;
+     right: 20px;
+}
+ #name::selection {
+     color: yellow;
+     background-color: black;
+}
+ #logo{
+     color: #FF69B4;
+     font-size: 25px;
+     position: absolute;
+     top: -25px;
+     left: 5px;
+}
+ #logo::selection {
+     color: yellow;
+     background-color: black;
+}
+ #logo:hover{
+     color: #f5a4e3;
+     font-size: 25px;
+     position: absolute;
+     top: -25px;
+     left: 5px;
+     cursor: grab;
+}
+ .blank-textarea {
+     background: #ffc2e0;
+     padding: 12px;
+     width:90%;
+     border: 2px solid #8fbaff;
+     border-radius: 15px;
+     resize: none;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+     font-size:1.3em;
+}
+ #password-label {
+     text-align:center;
+     display: block;
+     background: #ffc2e0;
+     padding: 12px;
+     width:40%;
+     height: 30px;
+     border: 2px solid #8fbaff;
+     border-radius: 15px;
+     resize: none;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+     font-size:1.8em;
+     font-family: monospace, monospace;
+     margin-top:10%;
+}
+ .center {
+     position:relative;
+     text-align:center;
+}
+ #password-options {
+     color:#FF69B4;
+     font-size:24px;
+     border: 2px solid #FF69B4;
+     border-radius: 15px;
+     margin: 1% 30% 0 30%;
+     padding: 10px;
+}
+ .password-buttons {
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     top:20px;
 
 }
-
-h1{
-    color:#FF69B4;
-    font-size:250px;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+ .password-labels {
+     margin-left:20px;
 }
-
-h2{
-    color:#FF69B4;
-    font-size:40px;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h3 {
-    color:#FF69B4;
-    font-size:200px;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-button {
-    color: #00FFFF;
-    background: #FF69B4;
-    font-size: 20px;
-    padding: 1px;
-    margin: 2px;
-    border: 2px solid #00c9c9;
-    border-radius:4px;
-    height: 30px;
-    width: 130px;
-    cursor: grab;
-}
-button:hover {
-    color: #ae9dfc;
-    background: #f5a4e3;
-}
-#counter-buttons {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top:0px;
-}
-
-#nav-buttons {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top:0px;
-}
-
-
-
-#name{
-    color: #FF69B4;
-    font-size: 25px;
-    position: absolute;
-    bottom: 0px;
-    right: 20px;
-}
-
-#logo{
-    color: #FF69B4;
-    font-size: 25px;
-    position: absolute;
-    top: -25px;
-    left: 5px;
-
-}
-
-#logo:hover{
-    color: #f5a4e3;
-    font-size: 25px;
-    position: absolute;
-    top: -25px;
-    left: 5px;
-    cursor: grab;
-}
-
-
-.blank-textarea {
-    background: #ffc2e0;
-    padding: 12px;
-    width:90%;
-    border: 2px solid #8fbaff;
-    border-radius: 4px;
-    resize: none;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size:1.3em;
-}
-
-
-#reverse-textarea {
-    background: #ffc2e0;
-    padding: 12px;
-        width:90%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
