@@ -60,6 +60,8 @@ button:hover {
     top:0px;
 }
 
+
+
 #name{
     color: #FF69B4;
     font-size: 25px;
@@ -94,11 +96,19 @@ button:hover {
     border: 2px solid #8fbaff;
     border-radius: 4px;
     resize: none;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size:1.3em;
 }
-/*test comment*/
+
+
+#reverse-textarea {
+    background: #ffc2e0;
+    padding: 12px;
+        width:90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
