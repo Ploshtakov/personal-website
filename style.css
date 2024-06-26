@@ -20,6 +20,46 @@ h2{
     margin-right: auto;
 }
 
+h3 {
+    color:#FF69B4;
+    font-size:200px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    color: #00FFFF;
+    background: #FF69B4;
+    font-size: 20px;
+    padding: 1px;
+    margin: 2px;
+    border: 2px solid #00c9c9;
+    border-radius:4px;
+    height: 30px;
+    width: 130px;
+    cursor: grab;
+}
+button:hover {
+    color: #ae9dfc;
+    background: #f5a4e3;
+}
+#counter-buttons {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:0px;
+}
+
+#nav-buttons {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:0px;
+}
+
 #name{
     color: #FF69B4;
     font-size: 25px;
@@ -27,6 +67,25 @@ h2{
     bottom: 0px;
     right: 20px;
 }
+
+#logo{
+    color: #FF69B4;
+    font-size: 25px;
+    position: absolute;
+    top: -25px;
+    left: 5px;
+
+}
+
+#logo:hover{
+    color: #f5a4e3;
+    font-size: 25px;
+    position: absolute;
+    top: -25px;
+    left: 5px;
+    cursor: grab;
+}
+
 
 .blank-textarea {
     background: #ffc2e0;
