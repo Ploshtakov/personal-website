@@ -9,10 +9,6 @@ body {
      margin-left: auto;
      margin-right: auto;
 }
- h1::selection {
-     color: yellow;
-     background-color: black;
-}
  h2{
      color:#FF69B4;
      font-size:40px;
@@ -68,9 +64,12 @@ body {
      bottom: 0px;
      right: 20px;
 }
- #name::selection {
-     color: yellow;
-     background-color: black;
+ #email{
+     color: #FF69B4;
+     font-size: 25px;
+     position: absolute;
+     top: -25px;
+     left: 5px;
 }
  #logo{
      color: #FF69B4;
@@ -78,10 +77,6 @@ body {
      position: absolute;
      top: -25px;
      left: 5px;
-}
- #logo::selection {
-     color: yellow;
-     background-color: black;
 }
  #logo:hover{
      color: #f5a4e3;
@@ -91,6 +86,10 @@ body {
      left: 5px;
      cursor: grab;
 }
+ .fancy-highlight::selection {
+     color: yellow;
+     background-color: black;
+ }
  .blank-textarea {
      background: #ffc2e0;
      padding: 12px;
